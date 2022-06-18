@@ -4,15 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Houdini Sign-up Page</title>
+    <title>Capture Sign-up Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 <body>
     <div class="container">
+        <div class="coverpic">
+            <div class="logo">
+                <img src="./images/camera4.png" alt="kitty" class="logopic">
+                <h1 class="name">Capture</h1>
+            </div>
+        </div>
+        <div class="rightcontent">
+            <div class="description left">
+                <p>This is not a real online service! Create an an account and sign in to gain
+                    access to our photo <br> editing software, Capture!
+                </p>
+                <p>Please enter all the <em>required</em> information to get started
+                </p>
+                <p class="filler">You <em>know</em> you want to</p>
+            </div>
+            <form action="">
+                <div class="form left">
+                    <p class="title">Sign up right here!</p>
+                    <div class="input">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone-number">Phone number</label>
+                        <input type="text" name="phone-number" id="phone-email" minlength="9" maxlength="9">
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="code" id="code" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
+                </div>
+            </form>
 
+        </div>
 
-
-
-        
     </div>
 </body>
 </html>
