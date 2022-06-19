@@ -6,4 +6,4 @@
 # What I learned
 - Form Validation
 - Formatting code for different size screens
-- Employ custom properties throughout the project
+- Employing custom properties throughout the project
